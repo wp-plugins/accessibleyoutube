@@ -4,7 +4,7 @@ Donate link: http://www.jannickbolten.nl/
 Tags: youtube, accessible, chromeless, blind, sighted, screenreader
 Requires at least: 2.6
 Tested up to: 3.3.1
-Stable tag: 0.5
+Stable tag: 0.5.1
 
 This is a very accessible and custom made YouTube-plugin for WordPress. 
 
