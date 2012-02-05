@@ -1,26 +1,22 @@
 === AccessibleYouTube ===
 Contributors: JannickBolten
 Donate link: http://www.jannickbolten.nl/
-Tags: youtube, accessible, chromeless, blind, sighted
+Tags: youtube, accessible, chromeless, blind, sighted, screenreader
 Requires at least: 2.6
 Tested up to: 3.3.1
-Stable tag: 0.4
+Stable tag: 0.5
 
-This is a very accessible and custom-made YouTube-plugin for WordPress.
+This is a very accessible and custom made YouTube-plugin for WordPress. 
 
 == Description ==
 
-This plugin was custom made for a company that used screen readers. It allows the user to embed YouTube videos in a post or page, which is controllable with the tab- and enter key.
+This plugin was custom made for a company for use with screen readers. It allows the user to embed YouTube videos in a post or page, which is controllable with the tab- and enter key, or via Screen readers for sighted or blind people.
 
 == Installation ==
-
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload the folder `accessible-youtube` to the `/wp-content/plugins/` directory
+1. Upload the folder `accessibleyoutube` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Use the shortcode [accessibleyoutube] or use the small AccessibleYoutube-popup in the graphical editor (TinyMCE)
+1. Use the shortcode [accessibleyoutube] and its attributes or use the small AccessibleYouTube-popup in the graphical editor
+1. Does it work? Please let me know! :-)
 
 == Frequently Asked Questions ==
 
@@ -28,7 +24,10 @@ e.g.
 
 [accessibleyoutube id=*youtubevideoid* width=*width* height=*height*]
 
-You could also use the Video add-button in the TinyMCE WYSIWYG-editor. 
+You could also use the Video add button in the TinyMCE WYSIWYG-editor. 
+
+= It's not working?!?!?!?1oneone =
+That's a shame. Could you please tell me at info@devmedia.nl more? Please include information like a link to your blog, your WordPress version and which version you installed.
 
 == Screenshots ==
 
@@ -41,6 +40,8 @@ You could also use the Video add-button in the TinyMCE WYSIWYG-editor.
 * Improved support for titles with spaces
 = 0.4 =
 * Hello Wordpress Plugin Directory! :-)
+= 0.5 =
+* Removed a few bugs and a few variables that weren't important for this plugin to work properly.
 
 == Upgrade Notice ==
 

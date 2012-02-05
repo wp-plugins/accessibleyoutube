@@ -9,12 +9,11 @@
 					inline : 1
 				}, {
 					plugin_url : url, // Plugin absolute URL
-					some_custom_arg : 'custom arg' // Custom argument
 				});
 			});
-            
+
 			ed.addButton('accessibleyoutube', {
-				title : 'accessibleyoutube.desc',
+				title : 'AccessibleYouTube',
 				cmd : 'accessibleyoutube',
 				image : url + '/image_add.png'
 			});
@@ -33,9 +32,10 @@
 				author : 'Jannick Bolten',
 				authorurl : 'http://www.jannickbolten.nl',
 				infourl : 'http://www.jannickbolten.nl',
-				version : "1.0"
+				version : "0.4"
 			};
 		}
 	});
-	tinymce.PluginManager.add('accessibleyoutube', tinymce.plugins.accessibleyoutube);
+	tinymce.PluginManager.add('accessibleyoutube',
+			tinymce.plugins.accessibleyoutube);
 })();
