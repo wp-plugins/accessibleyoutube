@@ -52,14 +52,9 @@ wp_die(__("Not accessible enough ;-)"));
 				<br />
 				<table border="0" cellpadding="4" cellspacing="0">
 					<tr>
-						<td><?php _e("Titel"); ?></td>
-						<td><input type="text" id="yt_titel" name="yt_titel" size="30" />
-						</td>
-					</tr>
-					<tr>
 						<td nowrap="nowrap"><?php _e("YouTube Video ID:"); ?></td>
 						<td><input type="text" id="yt_id" value="" maxlength="12"
-							name="yt_id" size="30" /></td>
+							name="yt_id" size="30" /> (ie. RWF86D_UNxc)</td>
 					</tr>
 					<tr>
 						<td><?php _e("Breedte/hoogte"); ?></td>

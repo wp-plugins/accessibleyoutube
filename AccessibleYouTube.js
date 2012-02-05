@@ -9,7 +9,7 @@ function onYouTubePlayerReady(id) {
 		temp['interval'] = window.setInterval("updateInfo(\"" + id + "\");",
 				250);
 	} else {
-		temp.cueVideoById(id);
+		temp.cueVideoById(id.toString());
 	}
 	temp['status'] = temp.getPlayerState();
 	yt[id] = temp;
@@ -35,9 +35,8 @@ function yt_actie(ytid, onderdeel) {
 	if (yt[ytid]) {
 		switch (onderdeel) {
 		case 'afspelen':
+			yt[ytid]['interval'] = window.setInterval("updateInfo('" + ytid + "')", 500);
 			yt[ytid].playVideo();
-			yt[ytid]['interval'] = window.setInterval("updateInfo(\"" + ytid
-					+ "\");", 500);
 			break;
 		case 'pauze':
 			yt[ytid].pauseVideo();

@@ -42,6 +42,8 @@ That's a shame. Could you please tell me at info@devmedia.nl more? Please includ
 * Hello Wordpress Plugin Directory! :-)
 = 0.5 =
 * Removed a few bugs and a few variables that weren't important for this plugin to work properly.
+= 0.5.1 =
+* The last update didn't work unfortunately. This one does!
 
 == Upgrade Notice ==
 
